@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} \PYGZhy{}*\PYGZhy{} coding: UTF\PYGZhy{}8 \PYGZhy{}*\PYGZhy{}}
+
+\PYG{n}{str\PYGZus{}file} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}[Reemplazar con ruta al archivo visitantes\PYGZus{}cine\PYGZus{}2016.dat]\PYGZsq{}}
+
+
+\PYG{n}{f\PYGZus{}in} \PYG{o}{=} \PYG{n+nb}{open}\PYG{p}{(}\PYG{n}{str\PYGZus{}file}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}r\PYGZsq{}}\PYG{p}{)}
+
+\PYG{o}{\PYGZpc{}}\PYG{n}{ejemplo} \PYG{n}{de} \PYG{n}{read}
+\PYG{n}{data} \PYG{o}{=} \PYG{n}{f}\PYG{o}{.}\PYG{n}{read}
+
+\PYG{o}{\PYGZpc{}}\PYG{n}{ejemplo} \PYG{n}{de} \PYG{n}{readline}
+\PYG{n}{data} \PYG{o}{=} \PYG{n}{f}\PYG{o}{.}\PYG{n}{readline}
+
+\PYG{o}{\PYGZpc{}}\PYG{n}{ejemplo} \PYG{n}{de} \PYG{n}{realines}
+\PYG{n}{data} \PYG{o}{=} \PYG{n}{f}\PYG{o}{.}\PYG{n}{readlines}
+\end{Verbatim}
